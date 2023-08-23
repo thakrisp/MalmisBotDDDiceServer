@@ -1,0 +1,34 @@
+{
+  "name": "malmisbot-dddice-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A twitch bot that connects to twitch with OAuth to read bits and redemptions, then rolls dice in dddice.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d&d",
+    "dungeons",
+    "dragrons",
+    "dice",
+    "twitch",
+    "roll"
+  ],
+  "author": "Thakrisp",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@supabase/supabase-js": "^2.26.0",
+    "await-to-js": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.18.0",
+    "fastify-raw-body": "^4.2.0",
+    "go-go-try": "^4.0.0",
+    "jsonwebtoken": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
